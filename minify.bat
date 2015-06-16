@@ -1,1 +1,1 @@
-uglifyjs ./dist/antiscroll-2.js -c -m -o ./dist/antiscroll-2.min.js
+uglifyjs ./dist/antiscroll.js -c -m -o ./dist/antiscroll.min.js

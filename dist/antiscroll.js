@@ -241,7 +241,7 @@
    *
    * @access public
    * @param {Element|jQuery} pane element
-   * @returns {antiscroll-2_L1.Scrollbar}
+   * @returns {antiscroll_L1.Scrollbar}
    */
   function Scrollbar(pane) {
     this.pane = pane;
@@ -409,7 +409,7 @@
    *
    * @access private
    * @param {type} pane
-   * @returns {antiscroll-2_L1.Scrollbar.Horizontal}
+   * @returns {antiscroll_L1.Scrollbar.Horizontal}
    */
   Scrollbar.Horizontal = function (pane) {
     this.el = $('<div class="antiscroll-scrollbar antiscroll-scrollbar-horizontal"/>', pane.el);
@@ -482,7 +482,7 @@
    *
    * @access private
    * @param {type} pane
-   * @returns {antiscroll-2_L1.Scrollbar.Vertical}
+   * @returns {antiscroll_L1.Scrollbar.Vertical}
    */
   Scrollbar.Vertical = function (pane) {
     this.el = $('<div class="antiscroll-scrollbar antiscroll-scrollbar-vertical" style="margin-top: ' + pane.marginTop + 'px;" />', pane.el);
